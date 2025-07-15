@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from typing import Any
 from pydantic_ai import Agent, ModelRetry, RunContext
 
+
 import os
 @dataclass
 class Deps:
@@ -76,3 +77,28 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 
+
+
+# import os
+# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["LLAMA_CLOUD_API_KEY"] = "llx-KZbzjQypInrMrAqm67nyHiHkYZu4atkiNlW4B3nJ67m7rdcV"
+#
+# import os
+# SERVICE_ACCOUNT_FILE = 'C:\\Users\sreec\PycharmProjects\ENTERPRISE_RAG\gen-lang-client-0166514082-32b8ddccac3a.json'
+#
+# SERVICE_ACCOUNT_FILE = 'C:\\Users\\sreec\\PycharmProjects\\ENTERPRISE_RAG\\gen-lang-client-0166514082-32b8ddccac3a.json'
+#
+# os.environ["LLAMA_CLOUD_API_KEY"] = "llx-KZbzjQypInrMrAqm67nyHiHkYZu4atkiNlW4B3nJ67m7rdcV"
+# # url = "https://b34af4f8-6b2e-4367-bf45-8abc2a9e94f5.us-east4-0.gcp.cloud.qdrant.io:6333"
+# # api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.CgGX6wAufVIYcpwwAalFysYIirDBDlxQCst4lVLlo14"
+#
+# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["token_github"] = "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"
+#
+# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["token_github"] = "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"
+# os.environ["LLAMA_CLOUD_API_KEY"] = "llx-KZbzjQypInrMrAqm67nyHiHkYZu4atkiNlW4B3nJ67m7rdcV"
+# os.environ["GROQ_API_KEY"] = "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"
+# os.environ["PINECONE_API_KEY"] = "pcsk_VTNGF_A5c535ZGvy2bTgUrZTpJubSoWbH7GfWK2dgEsHske3EPhAYEzbRM2AYjwkQtLN9"
+# os.environ["PINECONE_API_KEY_1"]="pcsk_4xVEdF_GemYyHYLKyAWy85BoQ2EUDWyPYEuT8cVhhLp7EeDJh4x21J9qeuoq4LF77uxXzg"
+# path_file = "C:\\Users\sreec\Downloads\Data_Scientist_Job_Description.pdf"
